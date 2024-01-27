@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Registration Form </title>
+	</head>
+
+	<body>
+		<header>
+			<h2> Course Registration Form </h2>
+		 </header>
+
+		<main>
+			<form>
+				<div>
+			 		<label for="fullname"> Full Name: </label>
+
+					<input required type="text" name="fullname" id="fullname">
+				</div> <br/>
+				
+				<div>
+					<label for="email"> Email: </label>
+					<input type="email" name="email" id="email"> 		
+				</div> <br/>
+
+				<div>
+					<label for="password"> Password: </label>
+					<input type="password" name="password" id="password">
+				</div> <br/>
+
+				<div>
+					<label for="dob"> Date of Birth: </label>
+					<input type="date" name="dob" id="dob">
+				</div> <br/>
+
+				<div>
+					<label for="photo"> Choose your photo: </label>
+					<input type="file" name="photo" id="photo"> 
+				</div> <br/>
+
+				<div>
+					<label for="gender"> Gender: </label>
+					<input type="radio" name="gender" id="gender" value="male"> Male
+					<input type="radio" name="gender" id="gender" value="female"> Female
+				</div> <br/>
+
+				<div>
+					<label for="religion"> Religion: </label>
+					<input type="checkbox" name="religion" id="religion" value="Islam"> Islam
+					<input Checked type="checkbox" name="religion" id="religion" value="Hindu"> Hindu
+					<input type="checkbox" name="religion" id="religion" value="Christian"> Christian
+				</div> <br/>
+
+				<div>
+					<label for="department"> Department: </label>
+					<select name="Department">
+						
+							<option value="eee"> EEE </option>
+							<option selected value="cse"> CSE  </option>
+							<option value="bba"> BBA </option>	
+					</select>
+				</div> <br/>
+
+				<div>
+					<label for="comments"> Comments: </label> <br/>
+		
+					<textarea cols="35" rows="7"> </textarea>
+				</div> <br/>
+				
+				<div>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Clear">
+				</div> <br/>
+
+			</form>
+			
+		</main>
+	</body>
+</html>

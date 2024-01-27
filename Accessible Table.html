@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Accessible Table </title>
+	</head>
+
+	<body>
+		<header>
+			<h1> Accessible Table </h1>
+		</header>
+
+		<main>
+			<style>
+				table,td,th{
+						border: 2px solid black;
+						text-align: center;
+				}
+	
+				table{
+					border-collapse: collapse;
+					width: 300px;
+					height: 140px;
+				}
+
+			</style>
+			<table>
+				<caption style="font-size:25px"> Information Table </caption>
+
+				<colgroup>
+						<col span="2" style="background-color:burlywood"/>
+				</colgroup>
+
+				<thead>
+					<tr>
+						<th scope="col"> ID </th>
+						<th scope="col"> Name </th>
+						<th scope="col"> GPA </th> 
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td scope="row"> 221311007 </td>
+						<td> Solaiman </td>
+						<td> 5.00 </td>
+					</tr>
+
+					<tr>
+						<td scope="row"> 221311008 </td>
+						<td> Shakil </td>
+						<td> 5.00 </td>
+					</tr>
+
+				</tbody>
+			</table>
+		</main>
+	</body>
+</html>
